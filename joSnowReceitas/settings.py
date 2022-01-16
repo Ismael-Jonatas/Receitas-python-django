@@ -80,7 +80,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'receitasBD',
         'USER': 'postgres',
-        'PASSWORD': 'ifpb'
+        'PASSWORD': 'ifpb',
+        'HOST': 'localhost'
     }
 }
 
